@@ -1,0 +1,369 @@
+button#login-button{
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    padding: 9px 22px;
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+    background: linear-gradient(90deg,#5522fa 0,#0074e4 100%);
+    border-radius: 80px;
+	transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+	margin: 5px;
+}
+button#register-button{
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    padding: 9px 22px;
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+    background: linear-gradient(90deg,#5522fa 0,#0074e4 100%);
+    border-radius: 80px;
+	transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+	margin: 5px;
+}
+button#select-button{
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    padding: 9px 22px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(30deg,#888F95 ,#232527 100%);
+	transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+	margin: 5px;
+}
+entry#login-register{
+	font-size: 30px;
+	padding: 9px 22px;
+	border-radius: 15px;
+	font-weight: 400;
+	margin: 5px;
+}
+label#register-error{
+	font-size: 20px;
+	padding: 9px 50px 9px 20px;
+}
+label#welcome-runapp{
+	font-size: 30px;
+	padding: 9px 50px 9px 20px;
+}
+button#select-runapp{
+	background-clip: padding-box;
+	background: linear-gradient(30deg,#fec08d,#fec08d 100%);
+	transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	color: #fff;
+	font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	margin: 0;
+	min-height: 3rem;
+	padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+	text-decoration: none;
+}
+button#deposit-runapp{
+	background-clip: padding-box;
+	background: linear-gradient(30deg,#ffac75, #ffac75 100%);
+	transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	color: #fff;
+	font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	margin: 0;
+	min-height: 3rem;
+	padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+	text-decoration: none;
+}
+button#payment-runapp{
+	background-clip: padding-box;
+	background: linear-gradient(30deg,#ff8e42 ,#ff8e42 100%);
+	transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	color: #fff;
+	font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	margin: 0;
+	min-height: 3rem;
+	padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+	text-decoration: none;
+}
+button#checkbalance-runapp{
+	background-clip: padding-box;
+	background: linear-gradient(30deg,#fa6400,#fa6400 100%);
+	transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	color: #fff;
+	font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	margin: 0;
+	min-height: 3rem;
+	padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+	text-decoration: none;
+}
+button#importdata-runapp{
+	background-clip: padding-box;
+	background: linear-gradient(30deg,#fa4b00,#fa4b00 100%);
+	transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	color: #fff;
+	font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	margin: 0;
+	min-height: 3rem;
+	padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+	text-decoration: none;
+}
+button#logout-runapp{
+	background-clip: padding-box;
+	background: linear-gradient(30deg,#fa2500,#fa2500 100%);
+	transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	color: #fff;
+	font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	margin: 0;
+	min-height: 3rem;
+	padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+	text-decoration: none;
+}
+button#accesdenied-runapp{
+	background-clip: padding-box;
+	background: linear-gradient(30deg,#989694,#989694 100%);
+	transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	color: #fff;
+	font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	margin: 0;
+	min-height: 3rem;
+	padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+	text-decoration: none;
+}
+entry#password-runapp{
+	padding: 6px 12px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #212529;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 7px;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	margin-top: 10px;
+}   
+button#pswd-confirm-runapp{
+	margin-top: 15px;
+	font-size:25px;
+	background-color: initial;
+	background-image: linear-gradient(-180deg, #00D775, #00BD68);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+	color: #FFFFFF;
+	font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+	outline: 0;
+	padding: 0 20px;
+	border: 0;
+}
+label#dialog-changepswd-runapp{
+	margin-top: 15px;
+	font-size: 25px;
+	padding: 20px;
+}
+button#acm-button-runapp1{
+	margin-top:35px;
+	background: linear-gradient(30deg,#89daff,#89daff 100%);
+	border-radius: 8px;
+	border-style: none;
+	color: #FFFFFF;
+	font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0;
+	outline: none;
+	padding: 10px 16px;
+	transition: color 100ms;
+	-webkit-user-select: none;
+}
+button#acm-button-runapp2{
+	margin-top:35px;
+	background: linear-gradient(30deg,#50c8ff,#50c8ff 100%);
+	border-radius: 8px;
+	border-style: none;
+	color: #FFFFFF;
+	font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0;
+	outline: none;
+	padding: 10px 16px;
+	transition: color 100ms;
+	-webkit-user-select: none;
+}
+button#acm-button-runapp3{
+	margin-top:35px;
+	background: linear-gradient(30deg,#00abfa,#00abfa 100%);
+	border-radius: 8px;
+	border-style: none;
+	color: #FFFFFF;
+	font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0;
+	outline: none;
+	padding: 10px 16px;
+	transition: color 100ms;
+	-webkit-user-select: none;
+}
+button#create-card-submit{
+	margin-top: 15px;
+	font-size:25px;
+	background-color: initial;
+	background-image: linear-gradient(-180deg, #00D775, #00BD68);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+	color: #FFFFFF;
+	font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+	outline: 0;
+	padding: 0 20px;
+	border: 0;
+}
+button#create-card-submit-red{
+	margin-top: 15px;
+	font-size:25px;
+	background-color: initial;
+	background-image: linear-gradient(-180deg, #ff1a21, #ff1a21);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+	color: #FFFFFF;
+	font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+	outline: 0;
+	padding: 0 20px;
+	border: 0;
+}
+entry#create-card-purpose{
+	font-size:25px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+button#deposit-submit{
+	margin-top: 15px;
+	font-size:25px;
+	background-color: initial;
+	background-image: linear-gradient(-180deg, #980d81, #980d81);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+	color: #FFFFFF;
+	font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+	outline: 0;
+	padding: 0 20px;
+	border: 0;
+}
+entry#deposit-value{
+	font-size:25px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+button#withdraw-submit{
+	margin-top: 15px;
+	font-size:25px;
+	background-color: initial;
+	background-image: linear-gradient(-180deg, #2b96e9, #2b96e9);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+	color: #FFFFFF;
+	font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+	outline: 0;
+	padding: 0 20px;
+	border: 0;
+}
+entry#withdraw-value{
+	font-size:25px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+button#pay-submit{
+	margin-top: 15px;
+	font-size:25px;
+	background-color: initial;
+	background-image: linear-gradient(-180deg, #f1905b, #f1905b);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+	color: #FFFFFF;
+	font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+	outline: 0;
+	padding: 0 20px;
+	border: 0;
+}
+entry#pay-value{
+	font-size:25px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+button#transfer-submit{
+	margin-top: 15px;
+	font-size:25px;
+	background-color: initial;
+	background-image: linear-gradient(-180deg, #c6f30d, #c6f30d);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+	color: #FFFFFF;
+	font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+	outline: 0;
+	padding: 0 20px;
+	border: 0;
+}
+entry#transfer-value{
+	font-size:25px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+button#selectcard-runapp{
+	font-size:30px;
+	margin-top: 15px;
+	border-radius: 10px;
+	background-image: linear-gradient(-180deg, #f3d74b, #f3d74b);
+	font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+}
+label#selecttext-runapp{
+	font-size:30px;
+	margin-top: 10px;
+}
+label#exp-runapp{
+	font-size:35px;
+	margin-top: 15px;
+	font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+	color: #7e2eff;
+	font-weight: 700;
+}
+label#exps-runapp{
+	font-size:35px;
+	margin-top: 15px;
+	font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+	color: #00680a;
+	font-weight: 700;
+}
