@@ -1,0 +1,10 @@
+Proiectul https://github.com/alexvladu/Bank_App_GTK_C a fost realizat in decurs a 10 zile lucratoare si 30 de ore de scris cod.
+GTK3 (GIMP Toolkit 3) este o bibliotecă de interfață grafică open-source, care oferă un set de instrumente și funcționalități pentru dezvoltarea aplicațiilor cu interfață grafică utilizator (GUI). 
+Acesta este folosit pentru crearea de aplicații pentru desktop în diverse medii de lucru, cum ar fi Linux, dar este disponibil și pentru alte platforme, inclusiv Windows și macOS.
+GTK3 oferă un set de unelte pentru a construi interfețe grafice consistente și moderne. 
+Acesta include o serie de elemente de interfață grafică, cum ar fi butoane, casete de text, ferestre, meniuri și multe altele, precum și facilități pentru manipularea evenimentelor de utilizator și pentru gestionarea elementelor interfeței grafice.
+Un aspect important al GTK3 este că este un mediu de dezvoltare multi-platformă și poate fi utilizat în diferite limbaje de programare precum C, C++, Python, și multe altele, deoarece există legături și wrapper-e disponibile pentru multe limbaje de programare populare.
+GTK3 este versiunea actualizată a GTK2 și aduce îmbunătățiri în ceea ce privește performanța, flexibilitatea și aspectul vizual al interfeței grafice. Este folosit într-o gamă largă de aplicații, de la medii desktop la programe mai complexe, precum editoare grafice, medii de dezvoltare integrate (IDE-uri), aplicații de productivitate și multe altele.
+
+Task-ul pe care trebuia sa il indeplineasca aplicatia este sa rezolve deposit/wihdraw/transfer/payment system intre carduri care pot fi creeate. Un user poate avea mai multe carduri, care pot fi creeate in aplicatie.
+Datele sunt procesate si validate si tinute intr-un fel de baza de date, un fisier cu extensia .in care tine campurile structurilor separate prin |
